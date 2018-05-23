@@ -1,0 +1,35 @@
+https://api.hubapi.com/companies/v2/companies/806072970?hapikey=8df375b5-2632-4d8c-a195-a464849040df
+https://api.hubapi.com/companies/v2/companies/806133201?hapikey=8df375b5-2632-4d8c-a195-a464849040df
+https://api.hubapi.com/companies/v2/companies/10444744/contacts?hapikey=demo
+https://api.hubapi.com/companies/v2/companies/809317459?hapikey=8df375b5-2632-4d8c-a195-a464849040df
+
+
+
+
+{"portalId":4558205,"companyId":806072970,"isDeleted":false,"properties":{"hs_lastmodifieddate":{"value":"1526300451877","timestamp":1526300451877,"source":"CALCULATED","sourceId":null,"versions":[{"name":"hs_lastmodifieddate","value":"1526300451877","timestamp":1526300451877,"source":"CALCULATED","sourceVid":[]}]},"name":{"value":"JRD Systems","timestamp":1526300451877,"source":"API","sourceId":null,"versions":[{"name":"name","value":"JRD Systems","timestamp":1526300451877,"source":"API","sourceVid":[]}]},"createdate":{"value":"1526300451877","timestamp":1526300451877,"source":"API","sourceId":"API","versions":[{"name":"createdate","value":"1526300451877","timestamp":1526300451877,"sourceId":"API","source":"API","sourceVid":[]}]},"description":{"value":"Software Services & Consulting","timestamp":1526300451877,"source":"API","sourceId":null,"versions":[{"name":"description","value":"Software Services & Consulting","timestamp":1526300451877,"source":"API","sourceVid":[]}]}},"additionalDomains":[],"stateChanges":[],"mergeAudits":[]}
+PASSED: verifyCreateCompany
+
+
+{ "properties": [{"name": "name", "value": "Herbalife2" },{"name": "description", "value": "Product based company" },{"name": "city", "value": "Bangalore" }]}
+
+{ \"properties\": [{ \"name\": \"name\", \"value\": \"JRD Systems\" }, {\"name\": \"description\",  \"value\": \"Software Services & Consulting\" } ]}
+{"companyId": 806133201, "deleted": true}
+
+{"properties": [{"property": "email","value": "apiqa@testersconnect.com"},{"property": "firstname","value": "Sridhara"},{"property": "lastname","value": "Varma"}]}
+ 
+ 
+java –cp "C:\Users\DELL\eclipse-workspace\HS_API\lib\*";"C:\Users\DELL\eclipse-workspace\HS_API\bin" org.testng.TestNG testng.xml 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+java –cp <path to your lib folder>\*;<path to your project bin folder>  org.testng.TestNG testng.xml 
+ 
+ 
+ 
+ 
+java –cp <path to your lib folder>\*;<path to your project bin folder>  org.testng.TestNG testng.xml 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12220" started-at="2018-05-23T10:12:15Z" finished-at="2018-05-23T10:12:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12220" started-at="2018-05-23T10:12:15Z" finished-at="2018-05-23T10:12:28Z">
+      <class name="com.testersconnect.apitests.HSTestClass">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.testersconnect.apitests.HSTestClass@3bfdc050]" name="startReport" is-config="true" duration-ms="186" started-at="2018-05-23T10:12:15Z" finished-at="2018-05-23T10:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="verifyCreateCompany()[pri:1, instance:com.testersconnect.apitests.HSTestClass@3bfdc050]" name="verifyCreateCompany" duration-ms="1580" started-at="2018-05-23T10:12:16Z" finished-at="2018-05-23T10:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateCompany -->
+        <test-method status="PASS" signature="verifyUpdateCompany()[pri:2, instance:com.testersconnect.apitests.HSTestClass@3bfdc050]" name="verifyUpdateCompany" duration-ms="535" started-at="2018-05-23T10:12:17Z" finished-at="2018-05-23T10:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateCompany -->
+        <test-method status="PASS" signature="verifyCreateContact()[pri:3, instance:com.testersconnect.apitests.HSTestClass@3bfdc050]" name="verifyCreateContact" duration-ms="5744" started-at="2018-05-23T10:12:18Z" finished-at="2018-05-23T10:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateContact -->
+        <test-method status="PASS" signature="verifyCompanyContacts()[pri:4, instance:com.testersconnect.apitests.HSTestClass@3bfdc050]" name="verifyCompanyContacts" duration-ms="2337" started-at="2018-05-23T10:12:23Z" finished-at="2018-05-23T10:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompanyContacts -->
+        <test-method status="PASS" signature="verifyDeleteCompany()[pri:5, instance:com.testersconnect.apitests.HSTestClass@3bfdc050]" name="verifyDeleteCompany" duration-ms="578" started-at="2018-05-23T10:12:26Z" finished-at="2018-05-23T10:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteCompany -->
+        <test-method status="PASS" signature="verifyDeleteContact()[pri:6, instance:com.testersconnect.apitests.HSTestClass@3bfdc050]" name="verifyDeleteContact" duration-ms="753" started-at="2018-05-23T10:12:26Z" finished-at="2018-05-23T10:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteContact -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.testersconnect.apitests.HSTestClass@3bfdc050]" name="endReport" is-config="true" duration-ms="472" started-at="2018-05-23T10:12:27Z" finished-at="2018-05-23T10:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.testersconnect.apitests.HSTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
